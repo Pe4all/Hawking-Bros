@@ -1,1 +1,151 @@
 
+.header{
+    display: flex;
+    margin-top: 26px;
+    margin-left: 47px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1920px;
+    min-width: 1800px;
+    width: 100%;
+    align-items: center;
+}
+
+.burger{
+    position: relative;
+    margin-left: 52px;
+    min-width: 54px;
+    min-height: 54px;
+    border: 1px solid #4C858B;
+    border-radius: 100%;
+    margin-right: 31px;
+}
+  
+.burger__span{
+    position: absolute;
+    background-color: #4C858B;
+    height: 1.83px;
+    width: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.first{
+    top: 48%;
+}
+
+.second{
+    top: 31%;
+}
+
+.third{
+    top: 65%;
+}
+
+.menu{
+    min-width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.make-lower{
+    padding-bottom: 1px;
+}
+
+.menu__item{
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 23px;
+    margin-right: 36px;
+    text-transform: uppercase;
+    color: #4C858B;
+    
+}
+
+.menu__item:nth-last-child(3){
+    margin-right: 36.6px;
+}
+
+.phone{
+    margin-left: 60px;
+    justify-content: center;
+    color: #4C858B;
+    text-decoration: none;
+    margin-right: 72px;
+}
+
+.phone__regular{
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+}
+
+.phone__fat{
+    font-weight: 700;
+    color: black;
+}
+
+.call-me{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #AE2236;
+    border-bottom: 1px dashed #AE2236;
+    margin-right: 64px;
+}
+
+.icons{
+    margin-top: 1px;
+    margin-right: 60px;
+}
+
+.icons__list{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 3px;
+    
+}
+
+.icons__list-item:nth-child(1){
+    margin-right: 12px;
+    margin-top: 0px;
+}
+
+.icons__list-item:nth-child(2){
+    margin-right: 16px;
+}
+
+.icons__list-item:nth-child(3){
+    margin-right: 18px;
+}
+
+.circles{
+    box-sizing: border-box;
+    display: inline-flex;
+}
+
+.circles__element{
+    height: 54px;
+    width: 54px;
+    border-radius: 100px;
+    border: 1px solid #E5E5E5;
+    margin-right: 16px;
+}
+
+.circles__element-heart, .circles__element-shopping-cart{
+    margin: 15px;
+}
+
+.circles__element-search{
+    margin: 16px;
+}
